@@ -12,9 +12,9 @@ El objetivo del proyecto es presentar mi perfil como desarrolladora de software,
 
 **🔗 Perfil de GitHub:** https://github.com/fiorellaalarcon
 
-**🔗 URL de Vercel:** completar después de publicar
+**🔗 URL de Vercel:** https://pfo1-alarcon-fiorella-melina.vercel.app/
 
-**🔗 URL del repositorio PFO1:** completar con la URL del repositorio
+**🔗 URL del repositorio PFO1:** https://github.com/fiorellaalarcon/pfo1-alarcon-fiorella-melina
 
 ---
 
@@ -393,12 +393,12 @@ No se utilizan frameworks ni librerías JavaScript externas.
 * [x] Formulario con `label`.
 * [x] Accesibilidad mediante teclado.
 * [x] `aria-label` y `aria-labelledby`.
-* [x] Enlace visible a GitHub.
+* [x] Enlace visible a GitHub. https://github.com/fiorellaalarcon
 * [x] Sección personal.
 * [x] README.
 * [x] Declaración de uso de IA.
-* [x] URL de Vercel.
-* [x] URL definitiva del repositorio.
+* [x] URL de Vercel. https://pfo1-alarcon-fiorella-melina.vercel.app/
+* [x] URL definitiva del repositorio. https://github.com/fiorellaalarcon/pfo1-alarcon-fiorella-melina
 
 ---
 
