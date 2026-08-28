@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Metaetiquetas principales para responsive, SEO y accesibilidad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Fiorella Melina Alarcón, desarrolladora de software orientada al desarrollo web y la gestión de información.">
+    <meta name="author" content="Fiorella Melina Alarcón">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0d1117">
+
+    <title>Fiorella Melina Alarcón | Desarrolladora de Software</title>
+
+    <!-- Google Fonts: Montserrat para títulos, Open Sans para lectura y Fira Code para estética técnica -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon utilizando la imagen personal -->
+    <link rel="icon" type="image/jpeg" href="logo.png">
+</head>
+
+<body>
+
+    <!-- COMENTARIO 1: ACCESIBILIDAD Y NAVEGACIÓN
+         El enlace skip-link permite que las personas que utilizan teclado
+         puedan saltar directamente al contenido principal. El header y nav
+         funcionan como landmarks semánticos para facilitar la navegación. -->
+
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="header">
+        <div class="container header__container">
+
+            <a href="#inicio" class="header__brand" aria-label="Ir al inicio del portafolio">
+                <img
+                    src="logo.png"
+                    alt="Foto de perfil de Fiorella Melina Alarcón"
+                    class="header__logo"
+                >
+                <span class="header__logo-text">
+                    FM<span>.</span>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Navegación principal">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#inicio" class="nav__link" aria-current="page">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a href="#habilidades" class="nav__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#enfoque" class="nav__link">Enfoque</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- HERO -->
+
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+
+            <div class="hero__grid"></div>
+
+            <div class="container hero__container">
+
+                <div class="hero__content">
+
+                    <div class="hero__status">
+                        <span class="status-dot"></span>
+                        <span>Disponible para nuevos proyectos</span>
+                    </div>
+
+                    <div class="hero__profile">
+
+                        <div class="hero__photo-wrapper">
+                            <img
+                                src="logo.png"
+                                alt="Foto de perfil de Fiorella Melina Alarcón"
+                                class="hero__image"
+                                width="300"
+                                height="300"
+                            >
+                        </div>
+
+                        <div class="hero__titles">
+
+                            <p class="hero__eyebrow">
+                                &lt;developing_future /&gt;
+                            </p>
+
+                            <h1 id="hero-title" class="hero__title">
+                                Fiorella Melina
+                                <span>Alarcón</span>
+                            </h1>
+
+                            <h2 class="hero__role">
+                                Desarrolladora de Software
+                            </h2>
+
+                            <p class="hero__description">
+                                Construyo soluciones digitales combinando
+                                desarrollo de software, organización de información
+                                y diseño de interfaces accesibles.
+                            </p>
+
+                            <div class="hero__actions">
+
+                                <a href="#contacto" class="btn btn--primary">
+                                    Contactar
+                                    <span aria-hidden="true">→</span>
+                                </a>
+
+                                <a
+                                    href="https://github.com/fiorellaalarcon"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn--github"
+                                    aria-label="Visitar perfil de GitHub de Fiorella Melina Alarcón"
+                                >
+                                    GitHub
+                                    <span aria-hidden="true">↗</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="code-window" aria-label="Presentación técnica">
+
+                        <div class="code-window__header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="code-window__body">
+                            <p>
+                                <span class="code-purple">const</span>
+                                <span class="code-pink">developer</span>
+                                =
+                                <span class="code-green">{</span>
+                            </p>
+
+                            <p class="code-indent">
+                                <span class="code-blue">nombre</span>:
+                                <span class="code-yellow">'Fiorella Alarcón'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                <span class="code-blue">focus</span>:
+                                <span class="code-yellow">'Software + Información'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                <span class="code-blue">mindset</span>:
+                                <span class="code-yellow">'clean & accessible'</span>
+                            </p>
+
+                            <p>
+                                <span class="code-green">}</span>;
+                            <span class="code-comment">// creando soluciones</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMENTARIO 2: ESTRUCTURA SEMÁNTICA DEL CONTENIDO
+             El elemento main contiene todo el contenido principal y se divide
+             en secciones independientes. Cada section posee un identificador
+             y un encabezado que permite navegar mediante enlaces internos. -->
+
+        <section id="sobre-mi" class="section" aria-labelledby="sobre-mi-title">
+
+            <div class="container">
+
+                <div class="section__heading">
+                    <span class="section__number">01.</span>
+                    <h2 id="sobre-mi-title">Sobre mí</h2>
+                </div>
+
+                <div class="about__grid">
+
+                    <div class="about__text">
+
+                        <p class="section__lead">
+                            Desarrollo soluciones donde la tecnología y la
+                            información trabajan juntas.
+                        </p>
+
+                        <p>
+                            Mi enfoque profesional combina conocimientos de
+                            desarrollo de software con la gestión, organización
+                            y estructuración de información. Me interesa crear
+                            sistemas claros, accesibles y funcionales, capaces
+                            de transformar datos en información útil.
+                        </p>
+
+                        <p>
+                            Trabajo especialmente con desarrollo web,
+                            estructuras semánticas, bases de datos y diseño
+                            responsive, priorizando el código limpio y una
+                            experiencia de usuario coherente.
+                        </p>
+
+                    </div>
+
+                    <aside class="about__terminal" aria-label="Perfil técnico">
+
+                        <div class="terminal__top">
+                            <span>profile.config</span>
+                            <span class="terminal__signal">●</span>
+                        </div>
+
+                        <div class="terminal__content">
+                            <p>
+                                <span class="terminal-key">01</span>
+                                Desarrollo Web
+                            </p>
+
+                            <p>
+                                <span class="terminal-key">02</span>
+                                Gestión de Información
+                            </p>
+
+                            <p>
+                                <span class="terminal-key">03</span>
+                                Bases de Datos
+                            </p>
+
+                            <p>
+                                <span class="terminal-key">04</span>
+                                Accesibilidad
+                            </p>
+
+                            <p>
+                                <span class="terminal-key">05</span>
+                                Diseño Responsive
+                            </p>
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+
+        <section
+            id="habilidades"
+            class="section section--dark"
+            aria-labelledby="habilidades-title"
+        >
+
+            <div class="container">
+
+                <div class="section__heading">
+                    <span class="section__number">02.</span>
+                    <h2 id="habilidades-title">Habilidades técnicas</h2>
+                </div>
+
+                <!-- COMENTARIO 3: USO DE GRID Y FLEXBOX
+                     CSS Grid se utiliza en las tarjetas porque permite resolver
+                     una distribución bidimensional de columnas y filas mediante
+                     auto-fit y minmax. Flexbox se utiliza en elementos que requieren
+                     una organización principalmente unidimensional, como botones,
+                     navegación, encabezados y grupos de información. -->
+
+                <div class="skills__grid">
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M3 4h18v16H3z M7 8l3 3-3 3 M12 14h5"/>
+                            </svg>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">WEB</span>
+                            <h3>HTML5</h3>
+                            <p>
+                                Estructuras semánticas, accesibilidad,
+                                formularios y buenas prácticas.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 4h14l-1.5 16L12 22l-5.5-2z M8 8h8 M8 12h7 M9 16h6"/>
+                            </svg>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">STYLE</span>
+                            <h3>CSS3</h3>
+                            <p>
+                                Flexbox, Grid, variables CSS, responsive design,
+                                transiciones y animaciones.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <span>C#</span>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">BACKEND</span>
+                            <h3>C#</h3>
+                            <p>
+                                Programación orientada a objetos y desarrollo
+                                de lógica para aplicaciones.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24">
+                                <ellipse cx="12" cy="5" rx="7" ry="3"/>
+                                <path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5"/>
+                                <path d="M5 12v7c0 1.7 3.1 3 7 3s7-1.3 7-3v-7"/>
+                            </svg>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">DATA</span>
+                            <h3>MySQL</h3>
+                            <p>
+                                Modelado de datos, consultas SQL y organización
+                                estructurada de información.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 3v13"/>
+                                <path d="M7 11l5 5 5-5"/>
+                                <path d="M5 21h14"/>
+                            </svg>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">VERSION</span>
+                            <h3>Git & GitHub</h3>
+                            <p>
+                                Control de versiones, repositorios y
+                                documentación de proyectos.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-card__icon" aria-hidden="true">
+                            <span>&lt;/&gt;</span>
+                        </div>
+
+                        <div class="skill-card__content">
+                            <span class="skill-card__tag">UX / UI</span>
+                            <h3>Accesibilidad</h3>
+                            <p>
+                                Interfaces claras, navegación por teclado,
+                                contraste y HTML semántico.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENFOQUE PROFESIONAL -->
+
+        <section id="enfoque" class="section" aria-labelledby="enfoque-title">
+
+            <div class="container">
+
+                <div class="section__heading">
+                    <span class="section__number">03.</span>
+                    <h2 id="enfoque-title">Enfoque profesional</h2>
+                </div>
+
+                <div class="focus-card">
+
+                    <div class="focus-card__content">
+
+                        <span class="focus-card__label">
+                            INFORMATION × SOFTWARE
+                        </span>
+
+                        <h3>
+                            La intersección entre gestión de información
+                            y desarrollo de software.
+                        </h3>
+
+                        <p>
+                            Mi formación me permite observar los sistemas
+                            digitales desde dos perspectivas complementarias:
+                            cómo se desarrolla la tecnología y cómo se organiza,
+                            representa y recupera la información.
+                        </p>
+
+                        <p>
+                            Este enfoque me lleva a valorar especialmente la
+                            estructura, la precisión, la accesibilidad y la
+                            facilidad de uso en cada solución digital.
+                        </p>
+
+                    </div>
+
+                    <div class="focus-card__symbol" aria-hidden="true">
+                        <span>{</span>
+                        <span>01</span>
+                        <span>+</span>
+                        <span>01</span>
+                        <span>}</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section
+            id="contacto"
+            class="section section--dark"
+            aria-labelledby="contacto-title"
+        >
+
+            <div class="container container--narrow">
+
+                <div class="section__heading">
+                    <span class="section__number">04.</span>
+                    <h2 id="contacto-title">Contacto</h2>
+                </div>
+
+                <p class="section__lead section__lead--small">
+                    ¿Tenés una propuesta, proyecto o consulta?
+                    Escribime. alarconfiorellamelina@gmail.com
+                </p>
+
+                <!-- COMENTARIO 4: FORMULARIO ACCESIBLE
+                     Cada campo posee un label asociado mediante for/id,
+                     atributos autocomplete para facilitar la carga,
+                     tipos de input adecuados y required para validar
+                     los datos mínimos antes del envío. -->
+
+                <form action="#" method="post" class="contact-form">
+
+                    <div class="form__group">
+
+                        <label for="nombre">
+                            <span>const</span> nombre =
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Tu nombre"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form__group">
+
+                        <label for="email">
+                            <span>const</span> email =
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="tu@email.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form__group">
+
+                        <label for="asunto">
+                            <span>const</span> asunto =
+                        </label>
+
+                        <input
+                            type="text"
+                            id="asunto"
+                            name="asunto"
+                            placeholder="Motivo del contacto"
+                            autocomplete="off"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form__group">
+
+                        <label for="mensaje">
+                            <span>const</span> mensaje =
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            placeholder="Escribí tu mensaje..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn--primary btn--submit">
+                        Ejecutar envío
+                        <span aria-hidden="true">→</span>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer__container">
+
+            <div>
+                <p class="footer__brand">
+                    Fiorella Melina Alarcón<span>.</span>
+                </p>
+
+                <p class="footer__copy">
+                    Desarrollado con HTML5 + CSS3
+                </p>
+            </div>
+
+            <a
+                href="https://github.com/fiorellaalarcon"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__github"
+            >
+                GitHub ↗
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
